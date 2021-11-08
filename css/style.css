@@ -13,6 +13,9 @@
     line-height: 82px;
 }
 .bottom-spacer {margin-bottom: 22px;}
+.col-xs-12 > div[class*="col-"],
+.col-xs-7 > div[class*="col-"],
+.col-xs-5 > div[class*="col-"],
 .col-xs-6 > div[class*="col-"] {
     background-color: #00E165;
     border-left: 1px solid #006CFA;
@@ -26,3 +29,24 @@
     line-height: 48px;
 }
 
+.start {justify-content:flex-start;}
+.center {justify-content: center;}
+.end {justify-content:end;}
+.top {
+    max-height: 41px;
+    line-height: 41px;
+    align-self: flex-start;
+}
+.middle {
+    max-height: 41px;
+    line-height: 41px;
+    align-self: center;
+}
+.bottom {
+    max-height: 41px;
+    line-height: 41px;
+    align-self: flex-end;
+}
+
+.space-around {justify-content: space-around;}
+.space-between {justify-content: space-between;}
