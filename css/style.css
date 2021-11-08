@@ -1,0 +1,28 @@
+[class*="col-"] {
+    background-color: #006CFA;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+.nest {
+    padding: 16px;
+    min-height: 82px;
+    line-height: 82px;
+}
+.bottom-spacer {margin-bottom: 22px;}
+.col-xs-6 > div[class*="col-"] {
+    background-color: #00E165;
+    border-left: 1px solid #006CFA;
+    border-right: 1px solid #006CFA;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.smaller {
+    min-height: 48px;
+    line-height: 48px;
+}
+
