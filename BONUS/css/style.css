@@ -1,0 +1,16 @@
+:root {
+    --black: #000000;
+    --blue: #0033CC;
+    --red: #FE0000;
+    --green: #00CD34;
+    --white: #FFFFFF;
+    --yellow: #FFCC00;
+}
+
+.col-1 {height: 17.063px; min-height: 17.063px;}
+.d {background-color: var(--black);}
+.b {background-color: var(--blue);}
+.r {background-color: var(--red);}
+.g {background-color: var(--green);}
+.w {background-color: var(--white);}
+.y {background-color: var(--yellow);}
